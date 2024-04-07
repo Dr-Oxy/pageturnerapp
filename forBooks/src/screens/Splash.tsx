@@ -13,6 +13,9 @@ import {useNavigation} from '@react-navigation/native';
 
 import {styles} from '../styles/splash';
 
+import Headings from '../components/Headings';
+import Paragraph from '../components/Paragraph';
+
 type NavigationOptions = {
   [key: string]: any; // Allows any type of property for flexibility
 };
@@ -54,11 +57,16 @@ const Splash = () => {
         <Modal animationType="slide" transparent={true} visible={openModal}>
           <View style={styles.modal}>
             <View style={styles.modalBody}>
-              <Text style={styles.lead}>Time to get lost in a story</Text>
-              <Text style={styles.sub}>
-                Prepare to lose track of time because every story is a page
-                turner.{' '}
-              </Text>
+              <Headings
+                style={styles.lead}
+                text="Time to get lost in a story"
+              />
+
+              <Paragraph
+                style={styles.sub}
+                text="Prepare to lose track of time because every story is a page
+                turner."
+              />
 
               <View style={styles.btnGroup}>
                 <Pressable

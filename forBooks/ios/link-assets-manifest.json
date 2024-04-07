@@ -1,0 +1,41 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Catamaran-Bold.ttf",
+      "sha1": "0682f99c3da1b0f6eb2890a6bb3cd365eef4b685"
+    },
+    {
+      "path": "assets/fonts/Catamaran-ExtraBold.ttf",
+      "sha1": "df9a9ee2a8741138b852e8261f05e9c56fbe8610"
+    },
+    {
+      "path": "assets/fonts/Catamaran-Light.ttf",
+      "sha1": "5796c5e15bdf84fe9121b5efefe20eb37a7d3b84"
+    },
+    {
+      "path": "assets/fonts/Catamaran-Medium.ttf",
+      "sha1": "0752d1fe94087a267ce8272d317b2e116c27038b"
+    },
+    {
+      "path": "assets/fonts/Catamaran-Regular.ttf",
+      "sha1": "827cf848efd74010607980047b4ca544db27982a"
+    },
+    {
+      "path": "assets/fonts/Catamaran-SemiBold.ttf",
+      "sha1": "c390849b502d6442853a0ae28b963ee96dc18c1a"
+    },
+    {
+      "path": "assets/fonts/EBGaramond-Bold.ttf",
+      "sha1": "26ce4cf1d22960ba7a0e20d1e19c7d7c567e7bf1"
+    },
+    {
+      "path": "assets/fonts/EBGaramond-Medium.ttf",
+      "sha1": "db7caf3821983cf8acef6eef031884a89a3947fd"
+    },
+    {
+      "path": "assets/fonts/EBGaramond-SemiBold.ttf",
+      "sha1": "f7756122d48ebb7609cee8e22e6e58a91b5bb703"
+    }
+  ]
+}

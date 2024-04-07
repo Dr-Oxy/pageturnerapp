@@ -56,7 +56,7 @@ export const styles = StyleSheet.create({
   button: {
     backgroundColor: '#F3E3BF',
     marginTop: 12,
-    paddingVertical: 18,
+    paddingVertical: 14,
     borderRadius: 12,
     ...Platform.select({
       ios: {
@@ -71,6 +71,7 @@ export const styles = StyleSheet.create({
     }),
   },
   buttonText: {
+    fontFamily: 'Catamaran',
     fontWeight: '600',
     color: '#704341',
     fontSize: 20,

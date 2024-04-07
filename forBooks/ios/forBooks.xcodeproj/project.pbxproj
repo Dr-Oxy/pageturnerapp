@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* forBooksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* forBooksTests.m */; };
+		04EFD52FB3D941F38306F439 /* Catamaran-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F71B99A2A0B14042852FD9E6 /* Catamaran-Light.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-forBooks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-forBooks.a */; };
+		10834432095843CFAB5EADCA /* EBGaramond-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9145857C4944D75B5ADD880 /* EBGaramond-Medium.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1769403D6C014B2EA98F3DF5 /* Catamaran-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBD6ED4863844FFB8CB81444 /* Catamaran-Bold.ttf */; };
+		716AE51A095045B6AB4C966C /* Catamaran-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E92F728E52BE4DEEA3DAB106 /* Catamaran-Regular.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-forBooks-forBooksTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-forBooks-forBooksTests.a */; };
+		7D5D267C10EF4BEEAE4C9C21 /* Catamaran-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D62CD3F511B4114843D5DD4 /* Catamaran-SemiBold.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A7B83364FF7243748206B8A1 /* Catamaran-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7FAB8A2B8CC4668BE6193D8 /* Catamaran-ExtraBold.ttf */; };
+		B66D6B954BF04FBC879FF7E0 /* EBGaramond-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3A674E588B44241BC0E7FCE /* EBGaramond-Bold.ttf */; };
+		E7664F4442EB4ABA91382DEE /* Catamaran-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43A4E45783E44831BE1A2AD7 /* Catamaran-Medium.ttf */; };
+		E939D53A6BB842F6A3A60901 /* EBGaramond-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD93319C089A41918656F027 /* EBGaramond-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +39,7 @@
 		00E356EE1AD99517003FC87E /* forBooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = forBooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* forBooksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = forBooksTests.m; sourceTree = "<group>"; };
+		0D62CD3F511B4114843D5DD4 /* Catamaran-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Catamaran-SemiBold.ttf"; path = "../assets/fonts/Catamaran-SemiBold.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* forBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = forBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = forBooks/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = forBooks/AppDelegate.mm; sourceTree = "<group>"; };
@@ -38,12 +48,20 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = forBooks/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-forBooks-forBooksTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-forBooks-forBooksTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-forBooks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-forBooks.debug.xcconfig"; path = "Target Support Files/Pods-forBooks/Pods-forBooks.debug.xcconfig"; sourceTree = "<group>"; };
+		43A4E45783E44831BE1A2AD7 /* Catamaran-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Catamaran-Medium.ttf"; path = "../assets/fonts/Catamaran-Medium.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-forBooks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-forBooks.release.xcconfig"; path = "Target Support Files/Pods-forBooks/Pods-forBooks.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-forBooks-forBooksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-forBooks-forBooksTests.debug.xcconfig"; path = "Target Support Files/Pods-forBooks-forBooksTests/Pods-forBooks-forBooksTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-forBooks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-forBooks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = forBooks/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-forBooks-forBooksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-forBooks-forBooksTests.release.xcconfig"; path = "Target Support Files/Pods-forBooks-forBooksTests/Pods-forBooks-forBooksTests.release.xcconfig"; sourceTree = "<group>"; };
+		A3A674E588B44241BC0E7FCE /* EBGaramond-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "EBGaramond-Bold.ttf"; path = "../assets/fonts/EBGaramond-Bold.ttf"; sourceTree = "<group>"; };
+		BD93319C089A41918656F027 /* EBGaramond-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "EBGaramond-SemiBold.ttf"; path = "../assets/fonts/EBGaramond-SemiBold.ttf"; sourceTree = "<group>"; };
+		C9145857C4944D75B5ADD880 /* EBGaramond-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "EBGaramond-Medium.ttf"; path = "../assets/fonts/EBGaramond-Medium.ttf"; sourceTree = "<group>"; };
+		D7FAB8A2B8CC4668BE6193D8 /* Catamaran-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Catamaran-ExtraBold.ttf"; path = "../assets/fonts/Catamaran-ExtraBold.ttf"; sourceTree = "<group>"; };
+		DBD6ED4863844FFB8CB81444 /* Catamaran-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Catamaran-Bold.ttf"; path = "../assets/fonts/Catamaran-Bold.ttf"; sourceTree = "<group>"; };
+		E92F728E52BE4DEEA3DAB106 /* Catamaran-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Catamaran-Regular.ttf"; path = "../assets/fonts/Catamaran-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F71B99A2A0B14042852FD9E6 /* Catamaran-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Catamaran-Light.ttf"; path = "../assets/fonts/Catamaran-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +140,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				9EB6C67A51224391A569A35E /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -135,6 +154,23 @@
 				00E356EE1AD99517003FC87E /* forBooksTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9EB6C67A51224391A569A35E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DBD6ED4863844FFB8CB81444 /* Catamaran-Bold.ttf */,
+				D7FAB8A2B8CC4668BE6193D8 /* Catamaran-ExtraBold.ttf */,
+				F71B99A2A0B14042852FD9E6 /* Catamaran-Light.ttf */,
+				43A4E45783E44831BE1A2AD7 /* Catamaran-Medium.ttf */,
+				E92F728E52BE4DEEA3DAB106 /* Catamaran-Regular.ttf */,
+				0D62CD3F511B4114843D5DD4 /* Catamaran-SemiBold.ttf */,
+				A3A674E588B44241BC0E7FCE /* EBGaramond-Bold.ttf */,
+				C9145857C4944D75B5ADD880 /* EBGaramond-Medium.ttf */,
+				BD93319C089A41918656F027 /* EBGaramond-SemiBold.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -243,6 +279,15 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				1769403D6C014B2EA98F3DF5 /* Catamaran-Bold.ttf in Resources */,
+				A7B83364FF7243748206B8A1 /* Catamaran-ExtraBold.ttf in Resources */,
+				04EFD52FB3D941F38306F439 /* Catamaran-Light.ttf in Resources */,
+				E7664F4442EB4ABA91382DEE /* Catamaran-Medium.ttf in Resources */,
+				716AE51A095045B6AB4C966C /* Catamaran-Regular.ttf in Resources */,
+				7D5D267C10EF4BEEAE4C9C21 /* Catamaran-SemiBold.ttf in Resources */,
+				B66D6B954BF04FBC879FF7E0 /* EBGaramond-Bold.ttf in Resources */,
+				10834432095843CFAB5EADCA /* EBGaramond-Medium.ttf in Resources */,
+				E939D53A6BB842F6A3A60901 /* EBGaramond-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,9 +12,11 @@ import {useNavigation} from '@react-navigation/native';
 
 import {useForm, Controller} from 'react-hook-form';
 
-import FormItem from '../components/FormItem';
-
 import {styles} from '../styles/login';
+
+import FormItem from '../components/FormItem';
+import Headings from '../components/Headings';
+import Paragraph from '../components/Paragraph';
 
 type NavigationOptions = {
   [key: string]: any; // Allows any type of property for flexibility
@@ -47,15 +49,17 @@ const Login = () => {
             <Image
               source={require('../../assets/icons/arrow-circle-left.png')}
             />
-            <Text style={styles.goBackText}>Go back</Text>
+            <Headings text="Go Back" style={styles.goBackText} />
           </Pressable>
         </View>
 
         <View style={styles.textGroup}>
-          <Text style={styles.salut}>Welcome Back</Text>
-          <Text style={styles.sub}>
-            Ready to dive into a good book? Log into your account.
-          </Text>
+          <Headings style={styles.salut} text="Welcome Back" />
+
+          <Paragraph
+            text="Ready to dive into a good book? Log into your account."
+            style={styles.sub}
+          />
         </View>
 
         <View style={styles.form}>

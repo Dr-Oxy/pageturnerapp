@@ -16,6 +16,9 @@ import FormItem from '../components/FormItem';
 
 import {styles} from '../styles/login';
 
+import Headings from '../components/Headings';
+import Paragraph from '../components/Paragraph';
+
 type NavigationOptions = {
   [key: string]: any; // Allows any type of property for flexibility
 };
@@ -47,15 +50,17 @@ const Register = () => {
             <Image
               source={require('../../assets/icons/arrow-circle-left.png')}
             />
-            <Text style={styles.goBackText}>Go back</Text>
+            <Headings text="Go Back" style={styles.goBackText} />
           </Pressable>
         </View>
 
         <View style={styles.textGroup}>
-          <Text style={styles.salut}>Hello There</Text>
-          <Text style={styles.sub}>
-            Create a page turner account and start your reading journey.
-          </Text>
+          <Headings style={styles.salut} text="Hello There" />
+
+          <Paragraph
+            text="Create a page turner account and start your reading journey."
+            style={styles.sub}
+          />
         </View>
 
         <View style={styles.form}>

@@ -1,8 +1,14 @@
 import React from 'react';
-import {Text} from 'react-native';
+import {Text, StyleSheet} from 'react-native';
 
 const Headings = (props: any) => {
-  return <Text style={props.style}>{props.text}</Text>;
+  return <Text style={[styles.fontFamily, props.style]}>{props.text}</Text>;
 };
+
+export const styles = StyleSheet.create({
+  fontFamily: {
+    fontFamily: 'EB Garamond',
+  },
+});
 
 export default Headings;

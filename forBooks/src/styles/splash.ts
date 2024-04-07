@@ -18,11 +18,11 @@ export const styles = StyleSheet.create({
     color: '#F3E3BF',
     fontWeight: '600',
     marginBottom: 8,
-    fontFamily: 'Lora',
   },
 
   sub: {
     fontSize: 20,
+    fontFamily: 'Catamaran',
     color: 'rgba(243, 227, 191, 0.7)',
   },
 
@@ -66,6 +66,7 @@ export const styles = StyleSheet.create({
     fontWeight: '600',
     fontSize: 20,
     textAlign: 'center',
+    fontFamily: 'Catamaran',
   },
 
   opt1: {
